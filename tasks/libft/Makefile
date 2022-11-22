@@ -6,7 +6,7 @@
 #    By: juhyulee <juhyulee@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/12 15:18:02 by juhyulee          #+#    #+#              #
-#    Updated: 2022/11/22 20:48:26 by juhyulee         ###   ########.fr        #
+#    Updated: 2022/11/22 21:11:46 by juhyulee         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,6 +21,7 @@ ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
 
 SRCS_B = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
 ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
+
 OBJS = $(SRCS:.c=.o)
 
 OBJS_B = $(SRCS_B:.c=.o)
