@@ -6,7 +6,7 @@
 #    By: juhyulee <juhyulee@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/12 15:18:02 by juhyulee          #+#    #+#              #
-#    Updated: 2022/11/22 20:43:17 by juhyulee         ###   ########.fr        #
+#    Updated: 2022/11/22 20:48:26 by juhyulee         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,7 +37,6 @@ else
 endif
 
 all : 		$(NAME)
-	sleep 1
 
 bonus :
 	make BONUS=1 all
