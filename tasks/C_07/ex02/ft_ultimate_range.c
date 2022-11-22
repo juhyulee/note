@@ -6,32 +6,29 @@
 /*   By: juhyulee <juhyulee@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 00:27:08 by juhyulee          #+#    #+#             */
-/*   Updated: 2022/09/10 22:15:31 by juhyulee         ###   ########.fr       */
+/*   Updated: 2022/09/10 22:40:38 by juhyulee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <stdlib.h>
 
 int	ft_ultimate_range(int **range, int min, int max)
 {
-	long long	len;
-	int			i;
-	int			*arr;
+	int	len;
+	int	i;
 
 	len = max - min;
-	i = 0;
-	if (*range == 0)
-		return (-1);
+	*range = 0;
 	if (min >= max)
 		return (0);
-	arr = (int *)malloc(sizeof(int) * len);
-	if (*arr == 0)
+	*range = (int *)malloc(sizeof(int) * len);
+	if (*range == 0)
 		return (-1);
+	i = 0;
 	while (i < len)
 	{
-		arr[i] = min + i;
+		range[0][i] = min + i;
 		i++;
 	}
-	*range = arr;
 	return (len);
 }

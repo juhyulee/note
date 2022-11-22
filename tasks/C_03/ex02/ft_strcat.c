@@ -6,7 +6,7 @@
 /*   By: juhyulee <juhyulee@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/31 11:44:49 by juhyulee          #+#    #+#             */
-/*   Updated: 2022/09/01 20:17:50 by juhyulee         ###   ########.fr       */
+/*   Updated: 2022/09/04 11:54:44 by juhyulee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,6 @@ char	*ft_strcat(char *dest, char *src)
 		i++;
 		j++;
 	}
+	dest[i] = '\0';
 	return (dest);
 }

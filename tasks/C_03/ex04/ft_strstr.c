@@ -6,30 +6,30 @@
 /*   By: juhyulee <juhyulee@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 14:44:04 by juhyulee          #+#    #+#             */
-/*   Updated: 2022/09/01 20:22:45 by juhyulee         ###   ########.fr       */
+/*   Updated: 2022/11/11 17:25:23 by juhyulee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strstr(char *str, char *to_find)
 {
-	int	i;
 	int	j;
 	int	cnt;
 
-	i = 0;
 	j = 0;
 	cnt = -1;
-	while (str[i])
+	if (to_find[j] == '\0')
+		return (str);
+	while (*str)
 	{
-		if (str[i] == to_find[j])
+		if (*str == to_find[j])
 		{
 			j++;
 			cnt++;
 			if (to_find[j] == '\0')
-				return (&str[i - cnt]);
+				return (str - cnt);
 		}
-		i++;
-		if (str[i] != to_find[j])
+		str++;
+		if (*str != to_find[j])
 		{
 			j = 0;
 			cnt = -1;
