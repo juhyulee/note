@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "a634f48f3816f059",
+    "type": "split",
+    "children": [
+      {
+        "id": "5950198b12a8ff63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d00f4da3c1c73aa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "born2code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "43507b36736ccf77",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c2a13b7daff4553",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8baa3c4b173178e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7100fba91af55d64",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "89bef59d369e322d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0532f426c97dd689",
+    "type": "split",
+    "children": [
+      {
+        "id": "be1ecfa409505a30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7658c9d403c5a43",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "born2code.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "git",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c341199c3067f2ac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "born2code.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7089997d687d0ce6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "19cf786bbe0ad3fa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "born2code.md"
+              }
+            }
+          },
+          {
+            "id": "2d63e185a0f81a97",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "d00f4da3c1c73aa0",
+  "lastOpenFiles": []
+}
