@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "born2code.md",
+                "file": "born2beroot.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "born2code.md",
+                "file": "born2beroot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "born2code.md",
+                "file": "born2beroot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "born2code.md"
+                "file": "born2beroot.md"
               }
             }
           },
@@ -145,5 +145,8 @@
     "width": 300
   },
   "active": "d00f4da3c1c73aa0",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "born2code.md",
+    "born2beroot.md"
+  ]
 }
