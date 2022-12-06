@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "afed01f5009ece57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "born2be 번역.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,9 +169,11 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "22a25bd4ea5b072e",
+  "active": "afed01f5009ece57",
   "lastOpenFiles": [
     "born2beroot.md",
+    "born2be 번역.md",
+    "born2tip.md",
     "born2code.md"
   ]
 }
