@@ -9,3 +9,6 @@ usermod -aG 그룹 유저
 adduser
 deluser
 lslogins
+
+terminal 원격접속
+ssh juhyulee@192.168.56.1 -p 4242
