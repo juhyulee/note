@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "born2be 번역.md",
+                "file": "born2tip.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "born2be 번역.md",
+                "file": "born2tip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "born2be 번역.md",
+                "file": "born2tip.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "born2be 번역.md"
+                "file": "born2tip.md"
               }
             }
           },
@@ -171,9 +171,9 @@
   },
   "active": "22a25bd4ea5b072e",
   "lastOpenFiles": [
+    "born2be 번역.md",
     "born2tip.md",
     "born2beroot.md",
-    "born2be 번역.md",
     "born2code.md"
   ]
 }
