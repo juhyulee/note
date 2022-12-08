@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "born2tip.md",
+                "file": "born2be 번역.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "born2tip.md",
+                "file": "born2be 번역.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "born2tip.md"
+                "file": "born2be 번역.md"
               }
             }
           },
@@ -169,11 +169,11 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "afed01f5009ece57",
+  "active": "22a25bd4ea5b072e",
   "lastOpenFiles": [
+    "born2tip.md",
     "born2beroot.md",
     "born2be 번역.md",
-    "born2tip.md",
     "born2code.md"
   ]
 }
