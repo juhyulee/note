@@ -5,6 +5,9 @@ shasum born2beroot.vdi
 hostname바꾸기
 hostnamectl set-hostname <바꾸고싶은이름>
 
+현재 유저 변경
+su --root
+
 유저 추가
 
 groupadd 그룹이름
@@ -20,9 +23,13 @@ ssh juhyulee@192.168.56.1 -p 4242
 ssh 작동상태 확인
 systemctl status ssh
 - ```~/.ssh/authorized_keys``` 폴더에 공개키 넣기
+- 
 ufw status verbose //  ufw 현재 상태 확인
 
-apparmor 확인
+##os 확인
+cat /etc/os-release
+
+##apparmor 확인
 aa-status
 
 ## Group and User
