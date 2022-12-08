@@ -82,3 +82,8 @@ login 중인 유저 변경 ```su username```
 - \-\-remove-all-files : 홈 디렉토리를 포함한 계정명으로 된 모든 것 삭제
 
 수정 ```usermod friend```
+
+```cron```
+service cron start : 크론 시작
+service cron stop : 크론 중지
+service cron status : 작동확인
