@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "born2tip.md",
+                "file": "born2beroot.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "born2tip.md",
+                "file": "born2beroot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "born2tip.md",
+                "file": "born2beroot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "born2tip.md"
+                "file": "born2beroot.md"
               }
             }
           },
@@ -171,9 +171,9 @@
   },
   "active": "afed01f5009ece57",
   "lastOpenFiles": [
+    "born2tip.md",
     "born2beroot.md",
     "born2be 번역.md",
-    "born2tip.md",
     "born2code.md"
   ]
 }

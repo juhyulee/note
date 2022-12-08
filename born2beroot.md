@@ -125,7 +125,7 @@ ssh 작동상태 확인하기
 ```systemctl restart ssh```
 
 아이맥에서 ssh 연결
-- ```ssh dongyoki@localhost -p 4242```
+- ```ssh juhyulee@localhost -p 4242```
 
 키쌍으로 연결하기
 - 서버에 공개키 전달
@@ -192,7 +192,7 @@ ufw allow/deny from <ip address> // 해당 주소로부터의 접속 허용
 
 ```
 apt-get install sudo
-adduser dongyoki sudo
+adduser juhyulee sudo
 ```
 
 ```sudo update-alternatives --config editor```
@@ -557,7 +557,7 @@ tty
 
 ## systemctl, service, demon
 
-daemon
+demon
 - 리눅스를 가동하면 실행되는 백그라운드 프로그램
 - 사용자의 요청을 받아 대응해 준다
 - 서비스 라고 부르기도 함
