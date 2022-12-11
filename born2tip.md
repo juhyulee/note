@@ -111,3 +111,6 @@ service cron stop : 크론 중지
 service cron status : 작동확인
 
 wall $(bash /root/monitering.sh)
+
+ssh 로그인 설정 확인
+cat /etc/ssh/sshd_config | grep "PermitRootLogin"
