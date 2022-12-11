@@ -6,7 +6,7 @@ hostname바꾸기
 hostnamectl set-hostname <바꾸고싶은이름>
 
 현재 유저 변경
-su --root
+su - root
 
 유저 추가
 
