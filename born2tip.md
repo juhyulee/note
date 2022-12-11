@@ -22,8 +22,7 @@ ssh juhyulee@192.168.56.1 -p 4242
 
 ssh 작동상태 확인
 systemctl status ssh
-- ```~/.ssh/authorized_keys``` 폴더에 공개키 넣기
-- 
+
 ufw status verbose //  ufw 현재 상태 확인
 
 ##os 확인
@@ -31,6 +30,14 @@ cat /etc/os-release
 
 ##apparmor 확인
 aa-status
+
+패스워드 정책
+sudo vi /etc/login.defs
+
+sudo groupadd
+
+sudo 폴더확인
+sudo ls /var/log/sudo
 
 ## Group and User
 
@@ -44,6 +51,23 @@ aa-status
 그룹목록
 ```cat /etc/group```
 
+ufw 룰 확인
+sudo cat /etc/ufw/user.rules
+
+새 룰 추가
+$ sudo ufw allow 8080 
+$ sudo cat /etc/ufw/user.rules
+새 룰 삭제 
+$ sudo ufw status numbered 
+$ sudo ufw delete <NUMBER>
+
+ssh 포트 확인
+sudo vi /etc/ssh/sshd_config
+
+sudo crontab -e
+
+모든 사용자에게 표시해라
+
 ### 그룹
 
 생성 ```groupadd user42```
@@ -54,10 +78,10 @@ aa-status
 	- 옵션
 	- G : 유저를 그룹에 속하게 만듬
 	- a : 기존에는 1개의 그룹에 밖에 속하지 못함, 추가로 2차 그룹을 지정할 때 사용
-	- ```usermod -aG sudo,user42 donyoki```
+	- ```usermod -aG sudo,user42 juhyulee```
 2. ```gpasswd```
-	- 추가 ```gpasswd -a dongyoki user42```
-	- 삭제 ```gpasswd -d dongyoki user42```
+	- 추가 ```gpasswd -a juhyulee user42```
+	- 삭제 ```gpasswd -d juhyulee user42```
 유저가 속한 그룹 확인
 1. ```groups juhyulee```
 2. ```id juhyulee```
@@ -66,15 +90,6 @@ aa-status
 
 login 중인 유저 변경 ```su username```
 이전 사용자로 돌아가기 ```exit```
-
-생성 ```useradd friend```
-- 옵션
-- m : 홈 디렉토리도 함께 생성
-- g : 그룹 지정
-- d : 디렉토리 지정
-- s : 쉘 지정
-- p : 암호 지정
-비밀번호 생성 ```passwd friend```
 
 생성 ```adduser friend```
 - 비밀번호설정, 홈 디렉토리 생성등의 과정을 알아서 해줌
