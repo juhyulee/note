@@ -109,3 +109,5 @@ login 중인 유저 변경 ```su username```
 service cron start : 크론 시작
 service cron stop : 크론 중지
 service cron status : 작동확인
+
+wall $(bash /root/monitering.sh)
