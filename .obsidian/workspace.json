@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAKEfile.md",
+                "file": "born2tip.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAKEfile.md",
+                "file": "born2tip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAKEfile.md",
+                "file": "born2tip.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAKEfile.md"
+                "file": "born2tip.md"
               }
             }
           },
@@ -183,9 +183,10 @@
   },
   "active": "3ee48483127d07e9",
   "lastOpenFiles": [
-    "born2be 번역.md",
-    "born2tip.md",
     "born2beroot.md",
+    "born2tip.md",
+    "MAKEfile.md",
+    "born2be 번역.md",
     "born2code.md"
   ]
 }

@@ -114,3 +114,14 @@ wall $(bash /root/monitering.sh)
 
 ssh 로그인 설정 확인
 cat /etc/ssh/sshd_config | grep "PermitRootLogin"
+
+
+평가팁
+
+ssh안에서 루트 로그인이 되는 이유를 설명
+
+lsblk 설명 가능한가
+rm : 이동 가능한 드라이브
+R0 : 읽기 전용 드라이브
+
+크론탭의 sudo횟수 출력이 3개씩 출력하는 경우
