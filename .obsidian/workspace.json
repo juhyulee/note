@@ -54,9 +54,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f191798d36ff4d60",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -181,7 +191,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "3ee48483127d07e9",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "f191798d36ff4d60",
   "lastOpenFiles": [
     "born2beroot.md",
     "born2tip.md",
