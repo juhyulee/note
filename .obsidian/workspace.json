@@ -59,9 +59,11 @@
             "id": "f191798d36ff4d60",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.9"
+                "file": "born2beroot.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -132,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "born2tip.md",
+                "file": "born2beroot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "born2tip.md",
+                "file": "born2beroot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "born2tip.md"
+                "file": "born2beroot.md"
               }
             }
           },
@@ -203,10 +205,10 @@
   },
   "active": "f191798d36ff4d60",
   "lastOpenFiles": [
-    "born2beroot.md",
     "born2tip.md",
-    "MAKEfile.md",
+    "born2beroot.md",
     "born2be 번역.md",
+    "MAKEfile.md",
     "born2code.md"
   ]
 }
